@@ -1,4 +1,4 @@
-package com.coderdojo.zen.award;
+package com.coderdojo.zen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
