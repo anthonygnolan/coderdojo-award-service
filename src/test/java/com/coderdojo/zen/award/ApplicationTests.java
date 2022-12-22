@@ -1,4 +1,4 @@
-package com.coderdojo.zen;
+package com.coderdojo.zen.award;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
