@@ -71,6 +71,12 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.8</version>
+				<configuration>
+					<excludes>
+						<exclude>**/Award.*</exclude>
+						<exclude>**/AwardController.*</exclude>
+					</excludes>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
@@ -79,13 +85,6 @@
 						<id>prepare-agent</id>
 					</execution>
 					<execution>
-						<configuration>
-							<formats>
-								<format>HTML</format>
-								<format>XML</format>
-								<format>CSV</format>
-							</formats>
-						</configuration>
 						<goals>
 							<goal>report</goal>
 						</goals>
